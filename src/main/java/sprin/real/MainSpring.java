@@ -13,7 +13,7 @@ public class MainSpring {
 
 		UsersRepository usersRepository = context.getBean("userRepository", UsersRepository.class);
 
-		User user = usersRepository.createUser("Arek");
+		User user = usersRepository.createUser("Areks");
 	}
 
 }
